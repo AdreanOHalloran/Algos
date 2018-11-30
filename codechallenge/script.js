@@ -32,6 +32,7 @@
 
 
 // Reverse a string -- FreeCodeCamp
+// js Cardio https://www.youtube.com/watch?v=M2bJBuaOeOQ
 // function reverseString(str) {
     // // using methods with variables
     // var strArr = str.split("");
@@ -39,17 +40,34 @@
     // var reversedString = reverseStrArray.join("");
     // return reversedString
 
-
     // // using methods
     // return str.split("").reverse().join("");
 
+    // manually using forloop Decrement
+    // var final = "";
+    // for (var i = str.length - 1; i >=0; i--) {
+    //     final += str[i];
+    // }
+    // return final;
+    // // forLoop Increment
+    // let final = "";
+    // for (let i = 0; i <= str.length - 1; i++) {
+    //     final = str[i] + final
+    // }
+    // return final;
+    // for of loop
+    // let final = "";
+    // for (let char of str) {
+    //     final = char + final
+    // }
+    // return final
 
-    // manually using forloop
-//     var final = "";
-//     for (var i =str.length - 1; i>=0; i--) {
-//         final += str[i];
-//     }
-//     return final;
+    // let final = ""
+    // str.split("").forEach((char) => {
+    //     final = char + final;
+    // })
+    // return final;
+
 // }
 // console.log(reverseString("hello")); // olleh
 
@@ -548,3 +566,11 @@
 //     })
 // }
 // console.log(bouncer([7, "ate", "", false, 9]));
+
+// // Reverse an integer
+// function reverseInt(int) {
+//     let revString = int.toString().split("").reverse().join("")
+
+//     return parseInt(revString)
+// }
+// console.log(reverseInt(54321));

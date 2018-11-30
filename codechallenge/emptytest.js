@@ -330,3 +330,9 @@
     
 // }
 // console.log(bouncer([7, "ate", "", false, 9]));
+
+// Reverse an integer
+// function reverseInt(int) {
+
+// }
+// console.log(reverseInt(54321));
