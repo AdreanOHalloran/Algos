@@ -9,12 +9,20 @@
 
 
 // Reverse a string -- FreeCodeCamp
+// js Cardio https://www.youtube.com/watch?v=M2bJBuaOeOQ
 // function reverseString(str) {
-//     // // using methods with variables
+    // // using methods with variables
 
-//     // // using methods
+    // // using methods
 
-//     // manually using forloop
+    // manually using forloop Decrement
+
+    // // forLoop Increment
+    
+    // for of loop
+
+    // forEach
+
 // }
 // console.log(reverseString("hello")); // olleh
 
@@ -331,8 +339,8 @@
 // }
 // console.log(bouncer([7, "ate", "", false, 9]));
 
-// Reverse an integer
+// // Reverse an integer
 // function reverseInt(int) {
-
+    
 // }
 // console.log(reverseInt(54321));
