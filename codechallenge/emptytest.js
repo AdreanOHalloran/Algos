@@ -8,20 +8,20 @@
 
 
 
-// Reverse a string -- FreeCodeCamp
-// js Cardio https://www.youtube.com/watch?v=M2bJBuaOeOQ
+// // Reverse a string -- FreeCodeCamp
+// // js Cardio https://www.youtube.com/watch?v=M2bJBuaOeOQ
 // function reverseString(str) {
     // // using methods with variables
 
     // // using methods
 
-    // manually using forloop Decrement
+    // //manually using forloop Decrement
 
     // // forLoop Increment
     
-    // for of loop
+    // // for of loop
 
-    // forEach
+    // // forEach
 
 // }
 // console.log(reverseString("hello")); // olleh
@@ -344,3 +344,40 @@
     
 // }
 // console.log(reverseInt(54321));
+
+// // 10 times tables -- for loop
+
+// Where do I belong - Freecodecamp
+// https://www.youtube.com/watch?v=MKKBqpEif9M&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&index=15
+// function getIndexToIns(arr, num) {
+    // // sort then for loop
+    // arr.sort((a,b) => {
+    //     return a - b;
+    // })
+
+    // for (let i = 0; i < arr.length; i++) {
+    //     if (num <= arr[i]) {
+    //         return i;
+    //     }
+    // }
+    // return arr.length;
+
+    // // solution 2 https://www.youtube.com/watch?v=Xz2BqAuW3Gw
+    // arr.push(num);
+    // arr.sort(function(a, b){return a-b});
+    // return arr.indexOf(num);
+// }
+// console.log(getIndexToIns([40, 60], 50));
+
+// Ceasers Cipher - Freecodecamp
+
+// function rot13(str) { // LBH QVQ VG!
+//     //solution one for loop with if statments (no regex or array methods)
+//     // https://www.youtube.com/watch?v=4mp-6a3vARU&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&index=16
+
+
+    // https://www.youtube.com/watch?v=eAe0Xo57AKM
+    // Solution 2 - map & regex solution.
+
+// }
+// console.log(rot13("SERR PBQR PNZC"));
