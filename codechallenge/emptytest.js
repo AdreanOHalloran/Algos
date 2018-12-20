@@ -1,11 +1,11 @@
-// fizzbuzz - With modulus
+// fizzbuzz - With modulus https://www.youtube.com/watch?v=QPZ0pIK_wsc
 
-
+// -------------------------------------------------------------------------------------------------------
 
 
 // fizzbuzz - without modulus
 
-
+// -------------------------------------------------------------------------------------------------------
 
 
 // // Reverse a string -- FreeCodeCamp
@@ -26,7 +26,7 @@
 // }
 // console.log(reverseString("hello")); // olleh
 
-
+// -------------------------------------------------------------------------------------------------------
 
 
 // Add numbers in an array -- HackerRank
@@ -35,15 +35,16 @@
 // }
 // console.log(simpleArraySum([1, 2, 3, 4, 10, 11]));
 
+// -------------------------------------------------------------------------------------------------------
 
 
-
-// Comparing results between two people -- HackeRank
+// Comparing results between two people -- HackeRank https://www.hackerrank.com/challenges/compare-the-triplets/problem
 // function compareTriplets(a, b) {
 
 // }
 // console.log(compareTriplets([17, 28, 30], [99, 16, 8]));
 
+// -------------------------------------------------------------------------------------------------------
 
 // // Filter an array  -- integers
 // var arr3 = [5, 3, 100, 55, 89, 300];
@@ -51,7 +52,7 @@
 // console.log(newArr3);
 // console.log(arr3.includes(100));
 
-
+// -------------------------------------------------------------------------------------------------------
 
 
 // //Sorting an array "strings"
@@ -59,21 +60,24 @@
 
 // console.log(sortedArr);
 
+// -------------------------------------------------------------------------------------------------------
 
 // // Sorting an array integers
 // var arr1 = [4, 230, 1, 60, 66, 153543, 13264356864323];
 
 // console.log(sortArr);
 
+// -------------------------------------------------------------------------------------------------------
 
-// factoralize 5! = 1 * 2 * 3 * 4 * 5 = 120 -- Freecodecamp
+// factoralize 5! = 1 * 2 * 3 * 4 * 5 = 120 -- Freecodecamp https://www.youtube.com/watch?v=4ADnpDUQFvc&index=2&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8
 // function factorialize(num) {
 
 // }
 // console.log(factorialize(5));
 
+// -------------------------------------------------------------------------------------------------------
 
-// //Palindrome -- Freecodecamp
+// //Palindrome -- Freecodecamp https://www.youtube.com/watch?v=hvV48xfwZCs
 // let palindrome = (str) => {
 //     let reg = /[\W_]/g;
 
@@ -83,10 +87,10 @@
 // palindrome("racecar");
 // palindrome("dog");
 
+// -------------------------------------------------------------------------------------------------------
 
 
-
-// Find Longest Word -- Freecodecamp
+// Find Longest Word -- Freecodecamp https://www.youtube.com/watch?v=dy4y5MFVjbs&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&index=4
 // let findLongestWord = (str) => {
 //     // using array methods
 
@@ -97,10 +101,10 @@
 // }
 // findLongestWord("I want to find out what is the longest word in this sentence")
 
+// -------------------------------------------------------------------------------------------------------
 
 
-
-// Capitalize the first letter of each word (titleCase) ---FreeCodeCamp
+// Capitalize the first letter of each word (titleCase) ---FreeCodeCamp https://www.youtube.com/watch?v=lzs29obgJKM
 // function titleCase(str) {
 //     // // First Way for loop 
 
@@ -112,10 +116,10 @@
 // }
 // titleCase("I'm a little tea pot");
 
+// -------------------------------------------------------------------------------------------------------
 
 
-
-// Largest Number in an array -- Freecodecamp
+// Largest Number in an array -- Freecodecamp https://www.youtube.com/watch?v=o-SoVGzGCcQ&t=230s
 // function largestOfFour(arr) {
 //     var maxes = [];
 
@@ -123,8 +127,10 @@
 // }
 // largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
 
+// -------------------------------------------------------------------------------------------------------
 
-// Confirm Ending -- freecodecamp
+
+// Confirm Ending -- freecodecamp https://www.youtube.com/watch?v=0NJ6kPBn8dM
 // function confirmEnding(str, target) {
     
 // //     // 1st Method using endsWith method
@@ -143,11 +149,11 @@
 // console.log(confirmEnding("Bastion", "tn"));
 
 
+// -------------------------------------------------------------------------------------------------------
 
 
 
-
-// // Repeat a  string
+// // Repeat a  string https://www.youtube.com/watch?v=f0yEu6-Di10
 // function repeatStringNumTimes(str, num) {
 //     // // with return() method with repeat
 
@@ -157,40 +163,40 @@
 
 // console.log(repeatStringNumTimes("abc", 10));
 
+// -------------------------------------------------------------------------------------------------------
 
 
 
 
-
-//truncate a sting
+//truncate a sting https://www.youtube.com/watch?v=UXw_UfxY-no
 // function truncateString(str, num) {
 
 // }
 // console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8));
 
+// -------------------------------------------------------------------------------------------------------
 
 
-
-// break array into groups - Chunky Monkey - Freecodecamp
+// break array into groups - Chunky Monkey - Freecodecamp https://www.youtube.com/watch?v=jBlnlSNUdHo
 // function chunkArrayInGroups(arr, size) {
 //     // slice method (while loop)
 
 // }
 // console.log(chunkArrayInGroups(["a", "b", "c", "d"], 2));
 
+// -------------------------------------------------------------------------------------------------------
 
 
 
 
-
-//  // slasher flick --- Splice Method
+//  // slasher flick --- Splice Method https://www.youtube.com/watch?v=Qc7iwtL1ISo
 // function slasher(arr, howMany) {
 
 // }
 // console.log(slasher([1,2,3], 2));
 // console.log(slasher(["burgers","fries","shake"], 1));
 
-
+// -------------------------------------------------------------------------------------------------------
     
     
 // const convert = (temp, unit) => {
@@ -201,7 +207,10 @@
 // convert(65, "C");
 // convert(100, "F");
 
+// -------------------------------------------------------------------------------------------------------
 
+
+// Determine the distance between the minute hand and hour hand.
 // function clock_angles(hour, minute) {
 // //     // first workout the minute angle
 
@@ -216,7 +225,7 @@
 // }
 // console.log(clock_angles(3,15));
 
-
+// -------------------------------------------------------------------------------------------------------
 
 
 // JavaScript Cardio 3 - https://www.youtube.com/watch?v=tcoiPHktCwQ&feature=youtu.be
@@ -233,19 +242,19 @@
 // }
 // console.log(addAll(2,5,6,7));
 
+// -------------------------------------------------------------------------------------------------------
 
 
-
-// // SUM ALL PRIMES
+// // SUM ALL PRIMES https://www.youtube.com/watch?v=tcoiPHktCwQ&feature=youtu.be
 // function sumAllPrimes(num) {
 
 // }
 // console.log(sumAllPrimes(10));
 
+// -------------------------------------------------------------------------------------------------------
 
 
-
-// Seek and Destroy. Remove from Array Arguments
+// Seek and Destroy. Remove from Array Arguments https://www.youtube.com/watch?v=tcoiPHktCwQ&feature=youtu.be
 // function seekAndDestroy (arr) {
     // //solution 1: arguments, indexOf, filter
 
@@ -261,23 +270,22 @@
 // function seekAndDestroy (arr, ...rest) {
 
 
-
 // }
 // console.log(seekAndDestroy([2, 3, 4, 6, 6, 'hello'], 2, 6));
 
+// -------------------------------------------------------------------------------------------------------
 
 
-
-// // SORT BY HEIGHT [-1, 150, 190, 170, -1, -1, 160, 180]
+// // SORT BY HEIGHT [-1, 150, 190, 170, -1, -1, 160, 180] https://www.youtube.com/watch?v=LHn8WEj3CfU
 // function sortByHeight (a) {
 //     const arr1 = [];
 //     const arr2 = [];
-
 
 // }
 // const a = [-1, 150, 190, 170, -1, -1, 160, 180]
 // console.log(sortByHeight(a));
 
+// -------------------------------------------------------------------------------------------------------
 
 // // MISSING LETTERS
 // function missingLetters(str) {
@@ -286,7 +294,7 @@
 // console.log(missingLetters("abce"));
 
 
-
+// -------------------------------------------------------------------------------------------------------
 
 
 
@@ -300,7 +308,7 @@
 // }
 // console.log(evenOddSums([50, 60, 60, 45, 71]));
 
-
+// -------------------------------------------------------------------------------------------------------
 
 
 // Mutations - FreeCodeCamp.check if word contains letters https://www.youtube.com/watch?v=WGTVz35ZTaw&index=13&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&t=0s
@@ -322,7 +330,7 @@
 // console.log(mutation(["hello", "hey"]));
 // console.log(mutation(["hello", "he"]));
 
-
+// -------------------------------------------------------------------------------------------------------
 
 
 // // Freecodecamp Falsy Bouncer- Remove all false things from an array  https://www.youtube.com/watch?v=GdU0oQWxTB4&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&index=13
@@ -339,35 +347,35 @@
 // }
 // console.log(bouncer([7, "ate", "", false, 9]));
 
+// -------------------------------------------------------------------------------------------------------
+
+
 // // Reverse an integer
 // function reverseInt(int) {
     
 // }
 // console.log(reverseInt(54321));
 
+// -------------------------------------------------------------------------------------------------------
+
+
 // // 10 times tables -- for loop
+
+
+// -------------------------------------------------------------------------------------------------------
+
 
 // Where do I belong - Freecodecamp
 // https://www.youtube.com/watch?v=MKKBqpEif9M&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&index=15
 // function getIndexToIns(arr, num) {
     // // sort then for loop
-    // arr.sort((a,b) => {
-    //     return a - b;
-    // })
-
-    // for (let i = 0; i < arr.length; i++) {
-    //     if (num <= arr[i]) {
-    //         return i;
-    //     }
-    // }
-    // return arr.length;
 
     // // solution 2 https://www.youtube.com/watch?v=Xz2BqAuW3Gw
-    // arr.push(num);
-    // arr.sort(function(a, b){return a-b});
-    // return arr.indexOf(num);
-// }
+
+// }b
 // console.log(getIndexToIns([40, 60], 50));
+
+// -------------------------------------------------------------------------------------------------------
 
 // Ceasers Cipher - Freecodecamp
 
@@ -376,8 +384,10 @@
 //     // https://www.youtube.com/watch?v=4mp-6a3vARU&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&index=16
 
 
-    // https://www.youtube.com/watch?v=eAe0Xo57AKM
-    // Solution 2 - map & regex solution.
+    // // https://www.youtube.com/watch?v=eAe0Xo57AKM
+    // // Solution 2 - map & regex solution.
 
 // }
 // console.log(rot13("SERR PBQR PNZC"));
+
+// -------------------------------------------------------------------------------------------------------
