@@ -2,32 +2,29 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // fizzbuzz - without modulus
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // // Reverse a string -- FreeCodeCamp
 // // js Cardio https://www.youtube.com/watch?v=M2bJBuaOeOQ
 // function reverseString(str) {
-    // // using methods with variables
+// // using methods with variables
 
-    // // using methods
+// // using methods
 
-    // //manually using forloop Decrement
+// //manually using forloop Decrement
 
-    // // forLoop Increment
-    
-    // // for of loop
+// // forLoop Increment
 
-    // // forEach
+// // for of loop
+
+// // forEach
 
 // }
 // console.log(reverseString("hello")); // olleh
 
 // -------------------------------------------------------------------------------------------------------
-
 
 // Add numbers in an array -- HackerRank
 // function simpleArraySum(ar) {
@@ -36,7 +33,6 @@
 // console.log(simpleArraySum([1, 2, 3, 4, 10, 11]));
 
 // -------------------------------------------------------------------------------------------------------
-
 
 // Comparing results between two people -- HackeRank https://www.hackerrank.com/challenges/compare-the-triplets/problem
 // function compareTriplets(a, b) {
@@ -53,7 +49,6 @@
 // console.log(arr3.includes(100));
 
 // -------------------------------------------------------------------------------------------------------
-
 
 // //Sorting an array "strings"
 // var arr2 = ['a', 'abc', 'tr', 'bcd'];
@@ -89,7 +84,6 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // Find Longest Word -- Freecodecamp https://www.youtube.com/watch?v=dy4y5MFVjbs&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&index=4
 // let findLongestWord = (str) => {
 //     // using array methods
@@ -103,10 +97,9 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // Capitalize the first letter of each word (titleCase) ---FreeCodeCamp https://www.youtube.com/watch?v=lzs29obgJKM
 // function titleCase(str) {
-//     // // First Way for loop 
+//     // // First Way for loop
 
 //     console.log(words.join(" "));
 
@@ -118,7 +111,6 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // Largest Number in an array -- Freecodecamp https://www.youtube.com/watch?v=o-SoVGzGCcQ&t=230s
 // function largestOfFour(arr) {
 //     var maxes = [];
@@ -129,18 +121,16 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // Confirm Ending -- freecodecamp https://www.youtube.com/watch?v=0NJ6kPBn8dM
 // function confirmEnding(str, target) {
-    
+
 // //     // 1st Method using endsWith method
 
-// //     //1st method simplified one line 
+// //     //1st method simplified one line
 
 // //     //2nd method .substr
 
 // //     //2nd method .substr simplified
-
 
 // //     //slice method
 
@@ -148,10 +138,7 @@
 // console.log(confirmEnding("Bastion", "on"));
 // console.log(confirmEnding("Bastion", "tn"));
 
-
 // -------------------------------------------------------------------------------------------------------
-
-
 
 // // Repeat a  string https://www.youtube.com/watch?v=f0yEu6-Di10
 // function repeatStringNumTimes(str, num) {
@@ -165,9 +152,6 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-
-
-
 //truncate a sting https://www.youtube.com/watch?v=UXw_UfxY-no
 // function truncateString(str, num) {
 
@@ -175,7 +159,6 @@
 // console.log(truncateString("A-tisket a-tasket A green and yellow basket", 8));
 
 // -------------------------------------------------------------------------------------------------------
-
 
 // break array into groups - Chunky Monkey - Freecodecamp https://www.youtube.com/watch?v=jBlnlSNUdHo
 // function chunkArrayInGroups(arr, size) {
@@ -186,9 +169,6 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-
-
-
 //  // slasher flick --- Splice Method https://www.youtube.com/watch?v=Qc7iwtL1ISo
 // function slasher(arr, howMany) {
 
@@ -197,8 +177,7 @@
 // console.log(slasher(["burgers","fries","shake"], 1));
 
 // -------------------------------------------------------------------------------------------------------
-    
-    
+
 // const convert = (temp, unit) => {
 
 // }
@@ -208,7 +187,6 @@
 // convert(100, "F");
 
 // -------------------------------------------------------------------------------------------------------
-
 
 // Determine the distance between the minute hand and hour hand.
 // function clock_angles(hour, minute) {
@@ -227,23 +205,19 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // JavaScript Cardio 3 - https://www.youtube.com/watch?v=tcoiPHktCwQ&feature=youtu.be
-
 
 // ADD ALL NUMBERS - no Arrays - Arguments object & for loop
 // function addAll() {
-    // //solution 1 ES5 with 'arguments'
+// //solution 1 ES5 with 'arguments'
 
-
-    //solution 2 ES6 - ...rest & reduce/forEach
-// function addAll(...numbers) { 
+//solution 2 ES6 - ...rest & reduce/forEach
+// function addAll(...numbers) {
 
 // }
 // console.log(addAll(2,5,6,7));
 
 // -------------------------------------------------------------------------------------------------------
-
 
 // // SUM ALL PRIMES https://www.youtube.com/watch?v=tcoiPHktCwQ&feature=youtu.be
 // function sumAllPrimes(num) {
@@ -253,28 +227,23 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // Seek and Destroy. Remove from Array Arguments https://www.youtube.com/watch?v=tcoiPHktCwQ&feature=youtu.be
 // function seekAndDestroy (arr) {
-    // //solution 1: arguments, indexOf, filter
+// //solution 1: arguments, indexOf, filter
 
-    //     // Return true if NOT in array
-    
-    // }
+//     // Return true if NOT in array
 
+// }
 
-    // return arr.filter(filterArr);
+// return arr.filter(filterArr);
 
-
-    //Solution 2: ..rest, filter, includes
+//Solution 2: ..rest, filter, includes
 // function seekAndDestroy (arr, ...rest) {
-
 
 // }
 // console.log(seekAndDestroy([2, 3, 4, 6, 6, 'hello'], 2, 6));
 
 // -------------------------------------------------------------------------------------------------------
-
 
 // // SORT BY HEIGHT [-1, 150, 190, 170, -1, -1, 160, 180] https://www.youtube.com/watch?v=LHn8WEj3CfU
 // function sortByHeight (a) {
@@ -289,20 +258,16 @@
 
 // // MISSING LETTERS
 // function missingLetters(str) {
-    
+
 // }
 // console.log(missingLetters("abce"));
 
-
 // -------------------------------------------------------------------------------------------------------
-
-
 
 // // EVEN & ODD SUMS. sum the even and the odd numbers separately from an array.
 // function evenOddSums(arr) {
 //     let evenSum = 0;
 //     let oddSum = 0;
-
 
 //     return [evenSum, oddSum];
 // }
@@ -310,21 +275,18 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // Mutations - FreeCodeCamp.check if word contains letters https://www.youtube.com/watch?v=WGTVz35ZTaw&index=13&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&t=0s
 // function mutation(arr) {
 //     var firstWord = arr[0].toLowerCase();
 //     var secondWord = arr[1].toLowerCase();
 
-    // first method for loop
-
+// first method for loop
 
 //     // second method for of with index
 
-
 //      // Third Method - Includes
-// 
-// 
+//
+//
 //     return true;
 // }
 // console.log(mutation(["hello", "hey"]));
@@ -332,45 +294,39 @@
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // // Freecodecamp Falsy Bouncer- Remove all false things from an array  https://www.youtube.com/watch?v=GdU0oQWxTB4&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&index=13
 // // solution 1; for of loop
 // function bouncer(arr) {
 //     var truthies = [];
 
-
 //     return truthies;
 // }
 // // solution 2: filter
 // function bouncer(arr) {
-    
+
 // }
 // console.log(bouncer([7, "ate", "", false, 9]));
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // // Reverse an integer
 // function reverseInt(int) {
-    
+
 // }
 // console.log(reverseInt(54321));
 
 // -------------------------------------------------------------------------------------------------------
 
-
 // // 10 times tables -- for loop
 
-
 // -------------------------------------------------------------------------------------------------------
-
 
 // Where do I belong - Freecodecamp
 // https://www.youtube.com/watch?v=MKKBqpEif9M&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&index=15
 // function getIndexToIns(arr, num) {
-    // // sort then for loop
+// // sort then for loop
 
-    // // solution 2 https://www.youtube.com/watch?v=Xz2BqAuW3Gw
+// // solution 2 https://www.youtube.com/watch?v=Xz2BqAuW3Gw
 
 // }b
 // console.log(getIndexToIns([40, 60], 50));
@@ -383,9 +339,8 @@
 //     //solution one for loop with if statments (no regex or array methods)
 //     // https://www.youtube.com/watch?v=4mp-6a3vARU&list=PLkBfv4fGBau-q9tGBUgVoGClRsSBiiZm8&index=16
 
-
-    // // https://www.youtube.com/watch?v=eAe0Xo57AKM
-    // // Solution 2 - map & regex solution.
+// // https://www.youtube.com/watch?v=eAe0Xo57AKM
+// // Solution 2 - map & regex solution.
 
 // }
 // console.log(rot13("SERR PBQR PNZC"));
