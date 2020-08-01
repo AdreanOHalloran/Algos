@@ -619,42 +619,42 @@
 // }
 // console.log(sockMerchant(9, ["10", "20", "20", "10", "10", "30", "50", "10", "20"]))
 
-// There are four ways to copy an array without making a direct reference to the original array
-// Bad: const players = ['Tom', 'John', 'Mike', 'Harry']
-// const team = players
-// team[3] = 'Stanley' <--- this will update the original array of players
-const players = ['Tom', 'John', 'Mike', 'Harry'];
-const team = [...players];
-const team1 = Array.from(players);
-const team2 = [].concat(players);
-const team3 = players.slice();
+// // There are four ways to copy an array without making a direct reference to the original array
+// // Bad: const players = ['Tom', 'John', 'Mike', 'Harry']
+// // const team = players
+// // team[3] = 'Stanley' <--- this will update the original array of players
+// const players = ['Tom', 'John', 'Mike', 'Harry'];
+// const team = [...players];
+// const team1 = Array.from(players);
+// const team2 = [].concat(players);
+// const team3 = players.slice();
 
-// Object Reassignment. There are two ways to do this safetly
-const person = {
-  name: 'Adrean',
-  age: 36,
-};
-// Bad - this reassigns the original
-const man = person;
-man.age = 99;
-const man2 = Object.assign({}, person, { age: 37 });
-const man3 = { ...person };
-man3.number = 99;
+// // Object Reassignment. There are two ways to do this safetly
+// const person = {
+//   name: 'Adrean',
+//   age: 36,
+// };
+// // Bad - this reassigns the original
+// const man = person;
+// man.age = 99;
+// const man2 = Object.assign({}, person, { age: 37 });
+// const man3 = { ...person };
+// man3.number = 99;
 
-// Deep Clone an object
-const adrean = {
-  name: 'adrean',
-  age: 36,
-  social = {
-    facebook: '@facebook',
-    twitter: '@twitter'
-  }
-}
-// Bad
-const dev = {...adrean};
-dev.name = 'Age';
-dev.social.twitter = 'coolman'
-console.log(adrean);
+// // Deep Clone an object
+// const adrean = {
+//   name: 'adrean',
+//   age: 36,
+//   social = {
+//     facebook: '@facebook',
+//     twitter: '@twitter'
+//   }
+// }
+// // Bad
+// const dev = {...adrean};
+// dev.name = 'Age';
+// dev.social.twitter = 'coolman'
+// console.log(adrean);
 
-// This is hacky way to do a deep clone. This makes it a string and then back into an object
-const dev2 = JSON.parse(JSON.stringify(adrean))
+// // This is hacky way to do a deep clone. This makes it a string and then back into an object
+// const dev2 = JSON.parse(JSON.stringify(adrean))

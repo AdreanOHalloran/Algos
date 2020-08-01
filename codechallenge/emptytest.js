@@ -352,3 +352,40 @@
 
 // }
 // console.log(sockMerchant(9, ["10", "20", "20", "10", "10", "30", "50", "10", "20"]))
+
+// -------------------------------------------------------------------------------------------------------
+
+// There are four ways to copy an array without making a direct reference to the original array
+// Bad: const players = ['Tom', 'John', 'Mike', 'Harry']
+// const team = players
+// team[3] = 'Stanley' <--- this will update the original array of players
+
+// -------------------------------------------------------------------------------------------------------
+
+// Object Reassignment. There are two ways to do this safetly
+// const person = {
+//   name: 'Adrean',
+//   age: 36,
+// };
+// // Bad - this reassigns the original
+// const man = person;
+// man.age = 99;
+
+// Deep Clone an object
+// const adrean = {
+//   name: 'adrean',
+//   age: 36,
+//   social = {
+//     facebook: '@facebook',
+//     twitter: '@twitter'
+//   }
+// }
+// Bad
+// const dev = {...adrean};
+// dev.name = 'Age';
+// dev.social.twitter = 'coolman'
+// console.log(adrean);
+
+// Write Hacky way to do a deep clone. This makes it a string and then back into an object
+
+// -------------------------------------------------------------------------------------------------------
