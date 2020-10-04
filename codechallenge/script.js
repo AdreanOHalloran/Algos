@@ -658,3 +658,67 @@
 
 // // This is hacky way to do a deep clone. This makes it a string and then back into an object
 // const dev2 = JSON.parse(JSON.stringify(adrean))
+
+// -------------------------------------------------------------------------------------------------------
+// // Object.keys/entries/values
+
+// // write a function that gets the number of properties in the object
+// let user = {
+//   name: 'John',
+//   age: 30,
+//   sex: 'male',
+// };
+
+// function count(obj) {
+//   return Object.keys(obj).length;
+// }
+
+// console.log(count(user));
+
+// // write a function that sums the properties
+// let salaries = {
+//   John: 100,
+//   Pete: 300,
+//   Mary: 250,
+// };
+
+// function sumSalaries(obj) {
+//   // 1st method for of
+//   let sum = 0;
+//   for (let salary of Object.values(salaries)) {
+//     sum += salary;
+//   }
+
+//   return sum; // 650
+//   // 2nd method with reduce function
+//   return Object.values(obj).reduce((acc, cur) => (acc += cur), 0);
+// }
+
+// console.log(sumSalaries(salaries));
+
+// // Object.entries
+// // use a for of loop to console.log key and values
+// const obj = { a: 5, b: 7, c: 9 };
+// for (const [key, value] of Object.entries(obj)) {
+//   console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
+// }
+
+// // Use a forEach loop to console.log keys and values
+// Object.entries(obj).forEach(([key, value]) => {
+//   console.log(`${key} ${value}`); // "a 5", "b 7", "c 9"
+// });
+
+// // Use a map method to store data in variable
+// const raptors = {
+//   aaa111: {
+//     name: 'Kawhi Leonard',
+//   },
+//   bbb222: {
+//     name: 'Kyle Lowry',
+//   },
+//   ccc333: {
+//     name: 'Spicy P',
+//   },
+// };
+// const objEntries = Object.entries(raptors).map(([key, raptor]) => `${key} and ${raptor}`);
+// console.log(objEntries);

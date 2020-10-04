@@ -389,3 +389,47 @@
 // Write Hacky way to do a deep clone. This makes it a string and then back into an object
 
 // -------------------------------------------------------------------------------------------------------
+
+// // Object.keys/entries/values
+
+// // write a function that gets the number of properties in the object
+// let user = {
+//   name: 'John',
+//   age: 30,
+//   sex: 'male',
+// };
+// function count(obj) {
+// }
+// console.log(count(user));
+
+// // write a function that sums the properties
+// let salaries = {
+//   John: 100,
+//   Pete: 300,
+//   Mary: 250,
+// };
+// function sumSalaries(obj) {
+//   // 1st method for of
+//   // 2nd method with reduce function
+// }
+// console.log(sumSalaries(salaries));
+
+// // Object.entries
+// // use a for of loop to console.log key and values
+// const obj = { a: 5, b: 7, c: 9 };
+
+// // Use a forEach loop to console.log keys and values
+
+// // Use a map method to store data in variable
+// const raptors = {
+//   aaa111: {
+//     name: 'Kawhi Leonard',
+//   },
+//   bbb222: {
+//     name: 'Kyle Lowry',
+//   },
+//   ccc333: {
+//     name: 'Spicy P',
+//   },
+// };
+// console.log(objEntries);
